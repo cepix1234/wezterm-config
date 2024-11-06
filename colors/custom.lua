@@ -29,33 +29,6 @@ local mocha = {
 }
 
 local colorscheme = {
-    foreground = mocha.text,
-    background = mocha.base,
-    cursor_bg = mocha.rosewater,
-    cursor_border = mocha.rosewater,
-    cursor_fg = mocha.crust,
-    selection_bg = mocha.surface2,
-    selection_fg = mocha.text,
-    ansi = {
-        '#0C0C0C', -- black
-        '#C50F1F', -- red
-        '#13A10E', -- green
-        '#C19C00', -- yellow
-        '#0037DA', -- blue
-        '#881798', -- magenta/purple
-        '#3A96DD', -- cyan
-        '#CCCCCC', -- white
-    },
-    brights = {
-        '#767676', -- black
-        '#E74856', -- red
-        '#16C60C', -- green
-        '#F9F1A5', -- yellow
-        '#3B78FF', -- blue
-        '#B4009E', -- magenta/purple
-        '#61D6D6', -- cyan
-        '#F2F2F2', -- white
-    },
     tab_bar = {
         background = 'rgba(0, 0, 0, 0.4)',
         active_tab = {
@@ -81,32 +54,22 @@ local colorscheme = {
         },
     },
     visual_bell = mocha.surface0,
-    indexed = {
-        [16] = mocha.peach,
-        [17] = mocha.rosewater,
-    },
-    scrollbar_thumb = mocha.surface2,
-    split = mocha.overlay0,
-    compose_cursor = mocha.flamingo, -- nightbuild only
-    force_reverse_video_cursor = true,
-    colors = {
-        foreground = "#dcd7ba",
-        background = "#1f1f28",
+    foreground = "#dcd7ba",
+    background = "#1f1f28",
 
-        cursor_bg = "#c8c093",
-        cursor_fg = "#c8c093",
-        cursor_border = "#c8c093",
+    cursor_bg = "#c8c093",
+    cursor_fg = "#c8c093",
+    cursor_border = "#c8c093",
 
-        selection_fg = "#c8c093",
-        selection_bg = "#2d4f67",
+    selection_fg = "#c8c093",
+    selection_bg = "#2d4f67",
 
-        scrollbar_thumb = "#16161d",
-        split = "#16161d",
+    scrollbar_thumb = "#16161d",
+    split = "#16161d",
 
-        ansi = { "#090618", "#c34043", "#76946a", "#c0a36e", "#7e9cd8", "#957fb8", "#6a9589", "#c8c093" },
-        brights = { "#727169", "#e82424", "#98bb6c", "#e6c384", "#7fb4ca", "#938aa9", "#7aa89f", "#dcd7ba" },
-        indexed = { [16] = "#ffa066", [17] = "#ff5d62" },
-    },
+    ansi = { "#090618", "#c34043", "#76946a", "#c0a36e", "#7e9cd8", "#957fb8", "#6a9589", "#c8c093" },
+    brights = { "#727169", "#e82424", "#98bb6c", "#e6c384", "#7fb4ca", "#938aa9", "#7aa89f", "#dcd7ba" },
+    indexed = { [16] = "#ffa066", [17] = "#ff5d62" },
 }
 
 return colorscheme

@@ -54,4 +54,5 @@ return {
       saturation = 0.9,
       brightness = 0.65,
    },
+   force_reverse_video_cursor = true,
 }
